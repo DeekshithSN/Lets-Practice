@@ -2,7 +2,11 @@
 # Maintainer DeekshithSN  
 # How to execute script - 
 #         file_directory_count.sh
-#
+# Ex -
+#      file_directory_count.sh
+#           o/p: 
+#             number of files 6
+#             number of directory 1
 filecount=0
 directorycount=0
 for VAR in $( ls -l )
