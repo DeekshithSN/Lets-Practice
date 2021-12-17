@@ -59,7 +59,7 @@ Testing 🔑 : download a big file using wget command
 🔑 : make use of case and other basic commands like date, df and logname. to get public ip use https://api.ipify.org   
 ```
 ---------------
-7. The script error.sh has few syntax issues please correct it and even there are logical issues correct the same. The purpose of the script is to idenfity & store the file names which has more that 10 lines of data in given directory. 
+7. The script [error.sh](https://github.com/DeekshithSN/Lets-Practice/blob/main/ShellScript/Script/error.sh) has few syntax issues please correct it and even there are logical issues correct the same. The purpose of the script is to idenfity & store the file names which has more that 10 lines of data in given directory. 
 
      Setup : download files which present in this [directory](https://github.com/DeekshithSN/Lets-Practice/tree/main/ShellScript/Script)
 
