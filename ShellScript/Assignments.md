@@ -15,3 +15,12 @@ Testing Hint : download a big file using wget command
 Level : Medium 
 Hint : use while loop, input redirection & curl command might help you 
 ``` 
+
+3. In a given directory identify shell script files ( file names ends with .sh ), check whether shebang line exsists or not. if its present dont do any change else insert shebang ( /bin/bash ) 
+       
+     Setup : download files which present in this [directory](https://github.com/DeekshithSN/Lets-Practice/tree/main/ShellScript/Script)
+
+```
+Level : Hard 
+Hint : use while loop, input redirection & curl command might help you 
+``` 
