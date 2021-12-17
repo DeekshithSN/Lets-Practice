@@ -31,3 +31,30 @@ Testing 🔑 : download a big file using wget command
 📏 : Easy 
 🔑 : make use of if condition and positional parameters concept 
 ``` 
+------------------------
+5. Identify the position of the parameter, lets say we have script position.sh that can accept n number of parameters, assume "-f" is one of the param. whenever the script is executed we need identify the position of "-f"?
+
+```
+  Examples - 
+  1. sh position.sh a b -f d
+     Output: position is 3
+  2. sh position.sh a b z x -f 
+     Output: position is 5
+  3. sh position.sh
+     Output: -f is not supplied
+```
+```
+📏 : Easy 
+🔑 : Make use of for loop, if condition and string operator  
+``` 
+--------------------
+6. Need a script which get us information like public ip, used memory capacity,time, loggedin username. here we need to give user options, for what what info needed?like if user executes ( assuming script file name is info.sh )
+ - info.sh ip  : print public ip
+ - info.sh memory : print used memory capacity 
+ - info.sh time : print time with timestamp 
+ - info.sh user : print loggedin user name 
+
+```
+📏 : Easy 
+🔑 : make use of case and other basic commands like date, df and logname. to get public ip use https://api.ipify.org   
+```
