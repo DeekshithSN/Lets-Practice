@@ -9,6 +9,7 @@
 #             o/p : this is not palindrome
 #         palindrome.sh 
 #             o/p : this is not palindrome
+#!/bin/bash
 reverse=$( echo $1 | rev  )
 if [ "$1" = "$reverse" ] 
 then
