@@ -3,9 +3,9 @@
 # How to run the script 
 #         palindrom.sh <string_that_you_want_to_check>
 # examples -
-#         palindrom.sh wow
+#         palindrome.sh wow
 #            o/p : this is palindrome
-#         palindrom.sh abc 
+#         palindrome.sh abc 
 #             o/p : this is not palindrome
 #         palindrome.sh 
 #             o/p : this is not palindrome
