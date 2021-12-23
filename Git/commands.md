@@ -30,5 +30,23 @@ git clone --depth 1 -b branch_name --single-branch < https_clone_link or ssh_clo
 Above command clones the repo, with only specified branch with the latest commit only, which reduces .git folder size
 
 -------------
+```
+git branch < branch_name >  
+```
+This command used to create new branch, once its created you need to use ``` git checkout < branch_name > ``` change the branch 
 
-git 
+-------------
+
+```
+git checkout -b < branch_name >
+```
+This creates a new branch and will be pointed newly created branch 
+
+---------
+
+```
+git branch -d < branch_name >
+```
+above command is used to delete local branch in git repo
+
+--------------
