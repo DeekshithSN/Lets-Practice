@@ -71,7 +71,10 @@ git branch -m < old_name > < new_branch_name >
 above command used to modify branch name 
 
 -----------------------
-
-```
-
+git reset : it is used to undo the committed changes.
+three types of reset:
+1. mixed --> git reset --mixed commit id
+2. soft --> git reset --soft commit id
+3. hard reset --hard commit id
+------------------------------
 ```
