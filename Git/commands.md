@@ -36,7 +36,12 @@ git branch < branch_name >
 This command used to create new branch, once its created you need to use ``` git checkout < branch_name > ``` change the branch 
 
 -------------
+```
+git checkout < branch_name >
+```
+used to point to another branch or change from one branch to another. 
 
+---------------
 ```
 git checkout -b < branch_name >
 ```
@@ -50,3 +55,23 @@ git branch -d < branch_name >
 above command is used to delete local branch in git repo
 
 --------------
+
+```
+git push origin --delete < branch_name >
+```
+
+to delete remote branch we will use above command 
+
+----------------
+
+```
+git branch -m < old_name > < new_branch_name >
+```
+
+above command used to modify branch name 
+
+-----------------------
+
+```
+
+```
