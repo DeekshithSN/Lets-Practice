@@ -73,5 +73,17 @@ above command used to modify branch name
 -----------------------
 
 ```
+git remote -v
+```
+the above command gets us fetch and push repo details.
+
+-----------------------
+```
+git add < . or * or filename >
+```
+these are for adding all the files from work area to staging area
+
+------------------
+```
 
 ```
