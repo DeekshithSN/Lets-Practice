@@ -85,5 +85,8 @@ these are for adding all the files from work area to staging area
 
 ------------------
 ```
-
+git revert commitId
 ```
+this command used Undu Particular Commit 
+
+------------------
